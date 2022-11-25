@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>My Quiver</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+       
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
+        <script src="https://kit.fontawesome.com/e6c62f0159.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body class="bg-white">
+    
+    <header class=" navbar navbar-expand-lg bg-dark bd-navbar sticky-top w-100" >
+        <nav  class="container-xxl bd-gutter flex-wrap flex-lg-nowrap w-100 bg" aria-label="Main navigation">
+            <img src="" alt="">
+            <div class="d-flex  w-100">
+              <a class="navbar-brand text-light fs-1" href="#">My Quiver</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar justify-content-end w-100 pestañas" id="navbarSupportedContent">
+                <form class="">
+                    <input class="" type="search"><button type="submit" class="bg-transparent border-0"><i class="fa-solid fa-magnifying-glass text-light mx-2"></i></button>
+                </form>
+                <ul class="navbar-nav fs-5 me-2 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" href="#productos">
+                      Productos
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#usados" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Usados
+                    </a>
+                    <ul class="dropdown-menu bg-dark">
+                      <li><a class="dropdown-item text-light" href="#vender">Vender</a></li>
+                      <li><a class="dropdown-item text-light" href="#comprar">Comprar</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="">
+                    <a href="#miCarrito" class="btn btn-outline-light" >
+                        <i  class="bi-cart-fill me-1"></i>
+                        Cart
+                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </a>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="w-100 bg-white">
+        
+        <div id="carouselExampleCaptions" class="d-block carousel slide w-100 bg-white" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+              <div class="carousel-inner">
+                  
+              <div class="carousel-item active">
+                  
+                  <img src="img\surfboards.png" class="d-block w-100 img-home " height="500" alt="...">
+                  <div class="carousel-caption elQuiver">
+                      <p class="p-1 container-fluid">El quiver no sólo lo conforman las tablas, sino también las quillas, diversos wetsuits, aletas, leash y otros accesorios que además de facilitar la práctica del surf, nos garantizan seguridad. </p>
+                  </div>
+                  <div class="carousel-caption slide-text ">
+                      <p class="fs-3">Encuentra aquí todo lo que necesitas para surfear</p>
+                  </div>
+              </div>
+              <div class="carousel-item justify-content-center position-relative">
+                  <img src="img\banerH_2.webp" class="d-block w-100" height="500" alt="...">
+                  
+                  <div class="carousel-caption slide-text ">
+                      <p >Encuentra aquí todo lo que necesitas para surfear</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="img\banerH_3.webp" class="d-block w-100" height="500" alt="...">
+                  
+                  <div class="carousel-caption slide-text ">
+                      <p >Encuentra aquí todo lo que necesitas para surfear</p>
+                  </div>
+              </div>
+            </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+        </div>
+        <br><br>
+  
+        <div id="productos" class="bg-white text-dark text-center px-5 mx-5 mb-5">
+            <h2 class="fs-2 pb-3">Descubre Nuestros Productos</h2>
+            <div class="row w-100 my-2 mx-auto">
+                <div class="col productosH">
+                    <a class="link1" href="#carouselExampleCaptions1">
+                        <img src="img\surboards_p.jpg" alt="" width="180" height="220">
+                        <div>
+                            <h3 class="fs-3 pb-1">Surfboards</h3>
+                            <a onclick="" class="btn btn-outline-dark comprar" href="#carouselExampleCaptions1">Ver más</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col productosH">
+                <a class="link1" href="#carouselExampleCaptions2">
+                    <img src="img\fins_p.webp" alt="" width="180" height="220">
+                        <div>
+                            <h3 class="fs-3 pb-1">Fins</h3>                    
+                            <a class="btn btn-outline-dark comprar" href="#carouselExampleCaptions2">Ver más</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col productosH">
+                    <a class="link1" href="#carouselExampleCaptions3">
+                        <img src="img\wetsuits_P.jpg" alt="" width="180" height="220">
+                        <div>
+                            <h3 class="fs-3 pb-1">Wetsuits</h3>                    
+                            <a class="btn btn-outline-dark comprar" href="#carouselExampleCaptions3">Ver más</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row w-100 my-2 mx-auto">
+                <div class="col productosH">
+                    <a class="link1" href="#carouselExampleCaptions4">
+                        <img src="img\decks_p.webp" alt="" width="180" height="220">
+                        <div>
+                            <h3 class="fs-4 pb-1">Decks</h3>                      
+                            <a class="btn btn-outline-dark comprar" href="#carouselExampleCaptions4">Ver más</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col productosH">
+                    <a class="link1" href="#carouselExampleCaptions5">
+                        <img src="img\leashes_p.jpg" alt="" width="180" height="220">
+                        <div>
+                            <h3 class="fs-4 pb-1">Leashes</h3>                      
+                            <a class="btn btn-outline-dark comprar" href="#carouselExampleCaptions5">Ver más</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col productosH">
+                    <a class="link1" href="#carouselExampleCaptions6">
+                        <img src="img\bodyboards_p.jpg" alt="" width="180" height="220">
+                        <div >
+                            <h3 class="fs-4 pb-1">Bodyboards</h3>
+                            <a class="btn btn-outline-dark comprar" href="#carouselExampleCaptions6">Ver más</a>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container-fluid bg-white mejora">
+            <p class="tuquiver">Mejora tu quiver...</p>
+            <p class="tusurf">...mejora tu surf </p>
+        </div>
+
+        <div id="carouselExampleCaptions0" class="d-block carousel w-100 bg-white" data-bs-ride="false">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                
+            <div class="carousel-item active">
+                <img src="img\baner2.webp" class="d-block w-100" height="400" alt="...">
+                
+            </div>
+            <div class="carousel-item ">
+                <img src="img\womens-champion.jpg" class="d-block w-100" height="400" alt="...">
+                
+            </div>
+            <div class="carousel-item">
+                <img src="img\curso-apnea.jpg" class="d-block w-100" height="400" alt="...">
+                
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions0" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions0" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+
+        <div class="text-center mt-5 bg-white mejora">
+            <p class="text-center w-100">Sumérgete en Nuestro Catálogo</p>
+            
+        </div>
+
+        <div id="carouselExampleCaptions1" class="d-block carousel banerProductos" data-bs-ride="false">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" class="bg-secondary" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" class="bg-secondary" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="row mx-5 w-100 fs-2">
+                    <a class="link1" id="surfboards" href="#form">Surfboards</a>
+                </div>
+
+                <div class="carousel-item active">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\surfboards\surfboard_1.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class="itemNombre mb-0  pb-0 fs-5">LOST</p>
+                                    <p class="itemPrecio mt-0 mb-0">1890.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\surfboards\surfboard_2.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class="itemNombre mb-0  pb-0 fs-5">BURN</p>
+                                    <p class="itemPrecio mt-0 mb-0">1980.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\surfboards\surfboard_3.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class="itemNombre mb-0  pb-0 fs-5">CHILLY</p>
+                                    <p class="itemPrecio mt-0 mb-0">1680.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\surfboards\surfboard_4.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class="itemNombre mb-0  pb-0 fs-5">LOST 2.0</p>
+                                    <p class="itemPrecio mt-0 mb-0">1720.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\surfboards\surfboard_5.png" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class="itemNombre mb-0  pb-0 fs-5">KLIMAX</p>
+                                    <p class="itemPrecio mt-0 mb-0">1390.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\surfboards\surfboard_6.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class="itemNombre mb-0  pb-0 fs-5">ISLANDS</p>
+                                    <p class="itemPrecio mt-0 mb-0">1480.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\surfboards\surfboard_7.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class="itemNombre mb-0  pb-0 fs-5">QUIVER</p>
+                                    <p class="itemPrecio mt-0 mb-0">1580.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\surfboards\surfboard_8.png" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class="itemNombre mb-0  pb-0 fs-5">LOST 3.0</p>
+                                    <p class="itemPrecio mt-0 mb-0">1640.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\surfboards\surfboard_9.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class="itemNombre mb-0  pb-0 fs-5">AJW</p>
+                                    <p class="itemPrecio mt-0 mb-0">1440.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+                <button class="carousel-control-prev  anterior" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next  siguiente" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+        </div>
+
+        <hr>
+
+        <div id="carouselExampleCaptions2" class="d-block carousel banerProductos" data-bs-ride="false">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" class="bg-secondary" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" class="bg-secondary" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="row mx-5 w-100 fs-2">
+                    <a class="link1" href="">Fins</a>
+                </div>
+
+                <div class="carousel-item active">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\fins\fin_1.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">FCS I</p>
+                                    <p class="itemPrecio mb-0 pb-0">123.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\fins\fin_2.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">FCS I 2.0</p>
+                                    <p class="itemPrecio mb-0 pb-0">123.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\fins\fin_3.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">FCS I 3.0</p>
+                                    <p class="itemPrecio mb-0 pb-0">123.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\fins\fin_4.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">FCS II </p>
+                                    <p class="itemPrecio mb-0 pb-0">140.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\fins\fin_5.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">FCS II 2.0</p>
+                                    <p class="itemPrecio mb-0 pb-0">140.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\fins\fin_6.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">FCS II 3.0</p>
+                                    <p class="itemPrecio mb-0 pb-0">140.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\fins\fin_7.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">FCS III </p>
+                                    <p class="itemPrecio mb-0 pb-0">189.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\fins\fin_8.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">FCS III 2.0</p>
+                                    <p class="itemPrecio mb-0 pb-0">189.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\fins\fin_9.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">FCS III 2.0</p>
+                                    <p class="itemPrecio mb-0 pb-0">189.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+                <button class="carousel-control-prev  anterior" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next  siguiente" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+        </div>
+
+        <hr>
+
+        <div id="carouselExampleCaptions3" class="d-block carousel banerProductos" data-bs-ride="false">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" class="bg-secondary" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2" class="bg-secondary" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="row  mx-5 w-100 fs-2">
+                    <a class="link1" href="">Wetsuits</a>
+                </div>
+
+                <div class="carousel-item active">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\wetsuits\wetsuit_1.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">HURLEY PHANTON</p>
+                                    <p class="itemPrecio mb-0 pb-0">1390.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\wetsuits\wetsuit_2.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">VISSLA X</p>
+                                    <p class="itemPrecio mb-0 pb-0">1690.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\wetsuits\wetsuit_3.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">O'NEIL B02</p>
+                                    <p class="itemPrecio mb-0 pb-0">1210.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\wetsuits\wetsuit_4.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">RIPCURL SPANDEX</p>
+                                    <p class="itemPrecio mb-0 pb-0">1990.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\wetsuits\wetsuit_5.png" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">BILLABONG FOIL</p>
+                                    <p class="itemPrecio mb-0 pb-0">1690.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\wetsuits\wetsuit_6.png" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">HURLEY BB</p>
+                                    <p class="itemPrecio mb-0 pb-0">1890.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\wetsuits\wetsuit_7.png" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">O'NEIL B03</p>
+                                    <p class="itemPrecio mb-0 pb-0">1490.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\wetsuits\wetsuit_8.png" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">VISSLA Z </p>
+                                    <p class="itemPrecio mb-0 pb-0">1680.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg mb-0 pb-0" src="img\wetsuits\wetsuit_9.png" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">RIPCURL PRO</p>
+                                    <p class="itemPrecio mb-0 pb-0">2200.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+                <button class="carousel-control-prev  anterior" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next  siguiente" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+        </div>
+
+        <hr>
+
+        <div id="carouselExampleCaptions4" class="d-block carousel banerProductos" data-bs-ride="false">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="0" class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="1" class="bg-secondary" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="2" class="bg-secondary" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="row mx-5 w-100 fs-2">
+                    <a class="link1" href="">Decks</a>
+                </div>
+
+                <div class="carousel-item active">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\decks\deck_1.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">DK 1</p>
+                                    <p class="itemPrecio mb-0 pb-0">135.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\decks\deck_2.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">DK 2</p>
+                                    <p class="itemPrecio mb-0 pb-0">135.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\decks\deck_3.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">DK 3</p>
+                                    <p class="itemPrecio mb-0 pb-0">135.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\decks\deck_4.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">DK 4</p>
+                                    <p class="itemPrecio mb-0 pb-0">135.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\decks\deck_5.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">DK 5</p>
+                                    <p class="itemPrecio mb-0 pb-0">135.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\decks\deck_6.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">DK 6</p>
+                                    <p class="itemPrecio mb-0 pb-0">135.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\decks\deck_7.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">DK 7</p>
+                                    <p class="itemPrecio mb-0 pb-0">135.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\decks\deck_8.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">DK 8</p>
+                                    <p class="itemPrecio mb-0 pb-0">135.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\decks\deck_9.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">DK 9</p>
+                                    <p class="itemPrecio mb-0 pb-0">135.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+                <button class="carousel-control-prev  anterior" type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next  siguiente" type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+        </div>
+
+        <hr>
+
+        <div id="carouselExampleCaptions5" class="d-block carousel banerProductos" data-bs-ride="false">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="0" class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="1" class="bg-secondary" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="2" class="bg-secondary" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="row mx-5 w-100 fs-2">
+                    <a class="link1" href="">Leashes</a>
+                </div>
+
+                <div class="carousel-item active">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\leashes\leash_1.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">Creatures 6</p>
+                                    <p class="itemPrecio mb-0 pb-0">79.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\leashes\leash_2.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">Creatures 6</p>
+                                    <p class="itemPrecio mb-0 pb-0">79.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\leashes\leash_3.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">Creatures 6</p>
+                                    <p class="itemPrecio mb-0 pb-0">79.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\leashes\leash_4.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">Creatures 7</p>
+                                    <p class="itemPrecio mb-0 pb-0">89.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\leashes\leash_5.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">Creatures 7</p>
+                                    <p class="itemPrecio mb-0 pb-0">89.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\leashes\leash_6.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">Creatures 7</p>
+                                    <p class="itemPrecio mb-0 pb-0">89.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\leashes\leash_7.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">Creatures 8</p>
+                                    <p class="itemPrecio mb-0 pb-0">99.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\leashes\leash_8.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">Creatures 8</p>
+                                    <p class="itemPrecio mb-0 pb-0">99.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\leashes\leash_9.webp" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">Creatures 8</p>
+                                    <p class="itemPrecio mb-0 pb-0">99.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+                <button class="carousel-control-prev  anterior" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next  siguiente" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+        </div>
+
+        <hr>
+
+        <div id="carouselExampleCaptions6" class="d-block carousel banerProductos" data-bs-ride="false">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="0" class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="1" class="bg-secondary" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="2" class="bg-secondary" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="row mx-5 w-100 fs-2">
+                    <a class="link1" href="#form">Bodyboards</a>
+                </div>
+
+                <div class="carousel-item active">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="#form">
+                                <img class="itemImg" src="img\bodyboards\bodyboard_1.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">STRING 1</p>
+                                    <p class="itemPrecio mb-0 pb-0">790.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\bodyboards\bodyboard_2.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">STRING 2</p>
+                                    <p class="itemPrecio mb-0 pb-0">790.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\bodyboards\bodyboard_3.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">STRING 3</p>
+                                    <p class="itemPrecio mb-0 pb-0">790.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\bodyboards\bodyboard_4.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">STRING 4</p>
+                                    <p class="itemPrecio mb-0 pb-0">790.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\bodyboards\bodyboard_5.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">STRING 5</p>
+                                    <p class="itemPrecio mb-0 pb-0">790.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\bodyboards\bodyboard_6.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">STRING 6</p>
+                                    <p class="itemPrecio mb-0 pb-0">790.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="row text-center mx-5 ">
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\bodyboards\bodyboard_7.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">STRING 7</p>
+                                    <p class="itemPrecio mb-0 pb-0">790.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\bodyboards\bodyboard_8.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">STRING 8</p>
+                                    <p class="itemPrecio mb-0 pb-0">790.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col productosB">
+                            <a class="link1" href="">
+                                <img class="itemImg" src="img\bodyboards\bodyboard_9.jpg" alt="" width="80%" height="70%">
+                                <div class="mt-0 pt-0">
+                                    <p class= "itemNombre mb-0 pb-0 fs-5">STRING 9</p>
+                                    <p class="itemPrecio mb-0 pb-0">790.00</p>
+                                    <a class="btn btn-outline-dark comprar" href="#miCarrito">COMPRAR</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+                <button class="carousel-control-prev  anterior" type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next  siguiente" type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+        </div>
+
+        <hr>
+
+        <div class="container-fluid text-center bg-white text-dark ">
+            <div id="usados" class="row p-5 mb-5 mx-5 w-100 ">
+              <h1 class="mb-5">Usados</h1>
+              <div class="col mx-lg-5 usados">
+                  <div>
+                      <img class="p-1" src="img\usados1.webp" alt="" height="290" width="440">
+                  </div>
+                  <div id="comprar">
+                      <h2>Comprar</h2>
+                  </div>
+                  <div>
+                      <p>En esta sección encontrarás información de los estudios que realicé en Desarrolo Web Full Stack</p>
+                  </div>
+              </div>
+              <div class="col mx-lg-5 usados">
+                  <div id="vender" >
+                      <h2>Vender</h2>
+                  </div>
+                  <div>
+                      <p>En esta sección encontrarás información de los estudios que realicé en Desarrolo Web Full Stack</p>
+                  </div>
+                  <div>
+                      <img class="p-1" src="img\usados1.webp" alt="" height="290" width="440">
+                  </div>
+              </div>
+            </div> 
+        </div>
+
+        <hr>
+
+        <div class="container-fluid w-100 px-1">
+            <div id="miCarrito" class="container-fluid row w-100">
+                <p class="fs-2">Mi Carrito</p>
+            </div>
+            <div class="row">
+                <div class="col w-50 ms-4 me-0">
+                    <p class="">Producto</p>
+                </div>
+                
+                <div class="row w-50 ms-1 subtitulosC">
+
+                    <div class="col me-2 px-0">
+                        <p class="">Precio</p>
+                    </div>
+                    <div class="col me-2 px-0">
+                        <p class="">Cantidad</p>
+                    </div>
+                    <div class="col me-2 px-0">
+                        <p class="">Retirar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class=" px-0 mx-0 productoCarrito">
+            
+        </div>
+
+        <hr>
+
+        <div class="text-end w-100 precioTotal mb-5">
+            <div class="mb-2">
+                <p class="total">Total: S/.1892.00</p>
+            </div>
+            <div class="mb-2">
+                <button class="btn btn-outline-secondary">Actualizar Compra</button>
+            </div>
+            <div class="mb-2">
+                <button class="btn btn-outline-primary">COMPRAR</button>
+            </div>
+            <div class="fs-1 mb-2">
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-diners-club"></i>
+                <i class="fa-brands fa-cc-amex"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+            </div>
+            <div class="mb-2">
+              <button class="btn btn-outline-secondary">Seguir Comprando</button>
+            </div>
+        </div>
+        
+        
+        <hr>
+
+        <div class="contenidoForm" id="formContacto">
+          <p class="contacto">Información de <span>Contacto</span></p>
+          <div class="contactanos">
+              <div class="formulario">
+                  
+                  <form action="">
+                    
+                      <p>
+                          <label for="nombre">Nombres</label>
+                          <input type="Name" name="Nombre" id="nombre">
+                      </p>
+                      <p>
+                          <label for="apellido">Apellidos</label>
+                          <input type="apellido" name="apellidos" id="apellido">
+                      </p>
+                      <p>
+                          <label for="email">E-mail</label>
+                          <input type="email" name="email" id="email">
+                      </p>
+                      <p>
+                        <label for="celular">Celular</label>
+                        <input type="tel" name="celular" id="celular">
+                    </p>
+                      <div class="row suscribete">              
+                          <input class="col my-auto h-50 suscribeteI" id="suscribete" type="checkbox">
+                          <label class="col suscribeteI" for="suscribete">Suscríbete a nuestro newsletter para recibir información de eventos y promociones</label>
+                      </div> 
+                      <p class="MensajeyBoton">
+                          <button type="submit">Enviar</button>
+                          <button type="reset">Borrar</button>
+                      </p>
+                  </form>
+                  <br>
+              </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="contenidoForm" id="formEntrega">
+          <h1 class="contacto">Forma de <span>Entrega</span></h1>
+          <div class="contactanos">
+              <div class="formulario">
+                
+                  <div class="">
+                  <input id="envioRadio" type="radio">
+                  <label class="text-light fs-5" for="envioRadio">Envío a Domicilio</label>
+                  </div>
+
+                 <form class="mx-3" action=""> 
+                  
+                    <p>
+                      <label for="departamento">Departamento</label>
+                      <select name="departamento" id="departamento" class="area">
+                          <option class="option" value="">Amazonas</option>
+                          <option class="option" value="">Áncash</option>
+                          <option class="option" value="">Apurímac</option>
+                          <option class="option" value="">Arequipa</option>
+                          <option class="option" value="">Ayacucho</option>
+                          <option class="option" value="">Cajamarca</option>
+                          <option class="option" value="">Callao</option>
+                          <option class="option" value="">Cusco</option>
+                          <option class="option" value="">Huancavelica</option>
+                          <option class="option" value="">Huánuco</option>
+                          <option class="option" value="">ica</option>
+                          <option class="option" value="">Junín</option>
+                          <option class="option" value="">La Libertad</option>
+                          <option class="option" value="">Lambayeque</option>
+                          <option class="option" value="">Lima</option>
+                          <option class="option" value="">Loreto</option>
+                          <option class="option" value="">Madre de Dios</option>
+                          <option class="option" value="">Moquegua</option>
+                          <option class="option" value="">Pasco</option>
+                          <option class="option" value="">Piura</option>
+                          <option class="option" value="">Puno</option>
+                          <option class="option" value="">San Martín</option>
+                          <option class="option" value="">Tacna</option>
+                          <option class="option" value="">Tumbes</option>
+                          <option class="option" value="">Ucayali</option>
+
+                      </select>
+                      </p>
+                      <p>
+                        <label for="provincia">Provincia</label>
+                        <select name="provincia" id="provincia" class="area">
+                            <option class="option" value="">Barranca</option>
+                            <option class="option" value="">Cajatambo</option>
+                            <option class="option" value="">Canta</option>
+                            <option class="option" value="">Cañete</option>
+                            <option class="option" value="">Huaral</option>
+                            <option class="option" value="">Huarochirí</option>
+                            <option class="option" value="">Huaura</option>
+                            <option class="option" value="">Lima Metropolitana</option>
+                            <option class="option" value="">Oyón</option>
+                            <option class="option" value="">Yauyos</option>
+                        </select>
+                      </p>
+                      <p>
+                        <label for="distrito">Distrito</label>
+                        <select name="distrito" id="distrito" class="area">
+                            <option class="option" value="">Ancón</option>
+                            <option class="option" value="">Ate Vtarte</option>
+                            <option class="option" value="">Barranco</option>
+                            <option class="option" value="">Breña</option>
+                            <option class="option" value="">Carabayllo</option>
+                            <option class="option" value="">Chaclacayo</option>
+                            <option class="option" value="">Chorrillos</option>
+                            <option class="option" value="">Cieneguilla</option>
+                            <option class="option" value="">Comas</option>
+                            <option class="option" value="">El Agustino</option>
+                            <option class="option" value="">Independencia</option>
+                            <option class="option" value="">Jesús María</option>
+                            <option class="option" value="">La Molina</option>
+                            <option class="option" value="">La Victoria</option>
+                            <option class="option" value="">Lima</option>
+                            <option class="option" value="">Lince</option>
+                            <option class="option" value="">Los Olivos</option>
+                            <option class="option" value="">Lurigancho</option>
+                            <option class="option" value="">Lurín</option>
+                            <option class="option" value="">Magdalena del Mar</option>
+                            <option class="option" value="">Miraflores</option>
+                            <option class="option" value="">Pachacamac</option>
+                            <option class="option" value="">Pucusan</option>
+                            <option class="option" value="">Pueblo Libre</option>
+                            <option class="option" value="">Puente Piedra</option>
+                            <option class="option" value="">Punta Hermosa</option>
+                            <option class="option" value="">Punta Negra</option>
+                            <option class="option" value="">Rimac</option>
+                            <option class="option" value="">San Bartolo</option>
+                            <option class="option" value="">San Borja</option>
+                            <option class="option" value="">San Isidro</option>
+                            <option class="option" value="">San Juan de Lurigancho</option>
+                            <option class="option" value="">San Juan de Miraflores</option>
+                            <option class="option" value="">San Luis</option>
+                            <option class="option" value="">San Martín de Porres</option>
+                            <option class="option" value="">San Miguel</option>
+                            <option class="option" value="">Santa Anita</option>
+                            <option class="option" value="">Santa María del Mar</option>
+                            <option class="option" value="">Santa Rosa</option>
+                            <option class="option" value="">Santiago de Surco</option>
+                            <option class="option" value="">Surquillo</option>
+                            <option class="option" value="">Villa El Salvador</option>
+                            <option class="option" value="">Villa María del Triunfo</option>
+                        </select>
+                      </p>
+                      <p>
+                          <label for="referencia">Referencia</label>
+                          <input id="referencia" type="text" name="referencia" class="area">
+                      </p>
+
+                      <p class="MensajeyBoton">
+                         <label for="direccion">Dirección</label> 
+                          <textarea id="direccion" name="direccion" rows="1" class="area"></textarea>
+                      </p>
+                  </form> 
+                      <div class="">
+                        <input id="recojoRadio" type="radio">
+                        <label class="text-light fs-5" for="recojoRadio">Recojo en Tienda</label>
+                      </div>
+      
+                       <form class="mx-3" action=""> 
+                        
+                          <p>
+                            <label for="tienda">Elegir Tienda</label>
+                            <select name="tienda" id="tienda" class="area">
+                                <option class="option" value="">Miraflores</option>
+                                <option class="option" value="">Punta Hermosa</option>
+                            </select>
+                            </p>
+                            <p class="MensajeyBoton">
+                              <button type="submit">Enviar</button>
+                              <button type="reset">Borrar</button>
+                          </p>                      
+                  </form>
+              </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="contenidoForm" id="formPago">
+            <p class="contacto">Método de <span>Pago</span></p>
+            <div class="contactanos">
+                <div class="formulario">
+                    <div class="">
+                    <input id="pagoRadio" type="radio">
+                    <label class="text-light fs-5" for="pagoRadio">Tarjeta de Débito/Crédito</label>
+                    </div>
+
+                    <form class="px-4" action="">
+                        <p>
+                            <label for="tirular">Nombre del Titular</label>
+                            <input type="Name" name="titular" id="titular">
+                        </p>
+                        <p>
+                            <label for="tarjeta">Número de tarjeta</label>
+                            <input type="number" name="tarjeta" id="tarjeta">
+                        </p>
+                        <p class="" >
+                            <label for="exp">Mes y Año de Expiración</label>
+                            <input type="exp" name="exp" id="exp">
+                        </p>
+                        <p class="" >
+                            <label for="cvv">CVV</label>
+                            <input  type="cvv" name="cvv" id="cvv">
+                        </p>
+                        <p>
+                            <label for="doc">Tipo de Documento</label>
+                            <input type="doc" name="doc" id="doc">
+                        </p>
+                        <p>
+                            <label for="numdoc">Número de Documento</label>
+                            <input type="numdoc" name="numdoc" id="numdoc">
+                        </p>
+                    </form>
+                    <div class="mt-3">
+                        <input id="payRadio" type="radio">
+                        <label class="text-light fs-5" for="payRadio">Paypal</label>
+                    </div>
+                    <div class="mt-3">
+                        <input id="mercadoRadio" type="radio">
+                        <label class="text-light fs-5" for="mercadoRadio">MercadoPago</label>
+                    </div>
+                    <div class="mt-3">
+                        <input id="bancaRadio" type="radio">
+                        <label class="text-light fs-5" for="bancaRadio">Banca por Internet</label>
+                    </div>
+                        <div class="formulario">
+                            <form action="">
+                            <p class="MensajeyBoton">
+                                <button type="submit">Enviar</button>
+                                <button type="reset">Borrar</button>
+                            </p>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+  <script src="app.js"></script> 
+</body>
+<footer>
+  <p> Todos los derechos reservados © 2022 Lima Perú</p>
+</footer>
+</html>

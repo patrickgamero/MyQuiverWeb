@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+    padding: 0 0;
+    margin: 0 0;
+}
+img{
+    
+    object-fit: cover;
+
+}
+body {
+    background: #ffffff;
+    color:#000000;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.productoCarrito{
+    box-sizing: border-box;
+}
+.soles{
+    font-size: 10pt;
+}
+.quiver{
+    font-size:1.4em;
+}
+.encuentra{
+    font-size: 2em;
+}
+.elQuiver{
+    background-color: #bebebe47; 
+    left: 10%;
+    top: 5%;
+    padding: 3%;
+    text-align: center;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    height: auto; 
+    line-height: 1.5;
+    text-overflow: clip;
+}
+.slide-text{
+    background-color: #bebebe1d; 
+    height: 25%;
+    left: 40%;
+    top: 55%;
+    padding: 2%;
+    text-align: center;
+    width: 45%;
+    border-radius: 10px;
+    
+}
+.mejora{
+    width: 100%;
+    text-align: start;
+    font-size: 30pt;
+}
+.tuquiver{
+    margin-left: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.tusurf{
+    margin-left: 200px;
+    margin-top: 0px;
+    padding-top: 0;
+    
+}
+.usados {
+    box-sizing: border-box;
+    background-color: #2281fe5f;
+    padding: 40px 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    height: 470px;
+    box-shadow:5px 5px 5px #494949a0 ;
+}
+.productosH{
+    box-sizing: border-box;
+    height: 350px;
+    background-color:#0c5ffb1f;;
+    padding: 2% 0;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px #494949a0;
+    margin: 10px 20px;
+}
+.banerProductos{
+    padding: 0 5px;
+}
+.siguiente{
+    width: 5%;
+    background-color: #41e5f777;
+    margin-top: 3%;
+    margin-bottom: 2%;
+ }
+ .anterior{
+    width: 5%;
+    background-color:#41e5f777;;
+    margin-top: 3%;
+    margin-bottom: 2%;
+ }
+.productosB{
+    margin-bottom: 5%;
+    margin-top: 0;
+    padding-top: 0;
+}
+.comprar{
+    height: auto;
+    font-size: 0.8em;
+    padding-top: auto;
+    margin-top: auto;  
+    box-sizing: border-box;
+}
+.link1  {
+    text-decoration: none;
+    color: #000000;
+    font-size: .9em;
+}
+.parrafo {
+    margin-top: 0;
+    font-size: 1em;
+    height: 40%;
+}
+.link1:hover{
+    color: #808080;
+}
+.contenidoForm {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.tipoEnvio{
+    grid-column: 1 / 3;
+}
+.contacto {
+    text-align: left;
+    font-size: 2em;
+}
+.contacto span {
+    color: #636262;
+}
+.contactanos {
+    box-shadow: 0 0 20px 0 #ffffff4d;
+}
+.contactanos > * {
+    padding: 1em;
+}
+.formulario {
+    background: #222222;
+}
+.formulario form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.formulario form label {
+    display: block;
+    color: #ffffff;
+}
+.formulario form p {
+    margin: 0;
+    padding: 1em;
+}
+.input3{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.formulario form .MensajeyBoton {
+    grid-column: 1 / 3;
+}
+.suscribeteI{
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 0;
+    text-align: left;
+}
+.suscribete{
+    grid-column: 1 / 3;
+    font-size: 10pt ;
+    
+}
+.suscribete:hover{
+    color: #dededf;
+}
+.area{
+    width: 100%;
+    padding: .7em;
+    border:none;
+    background: none;
+    color: #ffffff;
+    border-bottom: 1px solid #dededf;
+}
+.area:hover{
+    color: #dededf;
+}
+option{
+    color: #ffffff;
+    padding: .7em;
+    background:#dededf;
+}
+.option:hover{
+    color: #000000;
+    background: #ffffff;
+}
+.formulario form button,
+.formulario form input,
+.formulario form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #ffffff;
+    border-bottom: 1px solid #dededf;
+}
+.formulario form button {
+    background: #ffffff;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    margin: 3px;
+    color: #000000;
+}
+.formulario form button:hover,
+.formulario form button:focus {
+    background: #000000;
+    color: #ffffff;
+    transition: background-color 2s ease-out;
+}
+.InfoDeContacto {
+    background: #000000;
+}
+.InfoDeContacto h4, .InfoDeContacto ul, .InfoDeContacto p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+@media(min-width: 700px) {
+    .elQuiver{
+        font-size: 1.3em;
+        text-align: center;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .slide-text{
+        background-color: #bebebe11;
+        top: 60%;
+        padding: 1%;
+        margin-left: 5%;
+        text-align: center;
+        width:45%;
+        border-radius: 10px;
+        font-size: 16pt;
+        font-weight: 700;
+    
+    }
+    .productosB{
+        background: #00000000;
+        margin-top: 0;
+        margin-inline: 5%;
+        box-sizing: border-box;
+        padding-bottom: 3%;
+        padding-top: 2%;
+        border-radius: 10px;
+    }
+    .quiver{
+        font-size: .5em;  
+    }
+    .encuentra{
+        font-size: .5em;
+    }
+    body {
+        padding: 0 ;
+    }
+    
+    .producto{
+        font-size: .5em;
+    }
+    .contactanos {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contactanos > * {
+        padding: 2em;
+    }
+    .InfoDeContacto h4,
+    .InfoDeContacto ul,
+    .InfoDeContacto p {
+        text-align: left;
+    }
+    .banerProductos{
+        width: 95%;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    
+}
+
+@media(max-width: 700px) {
+    .slide-text{
+        background-color: #bebebe11; 
+        top: 50%;
+        padding: 1%;
+        margin-left: auto;
+        text-align: center;
+        width:70%;
+        border-radius: 10px;
+        font-size: 15pt;
+        font-weight: 700;
+    }
+    .elQuiver{
+        display: none;
+    }
+    .productosB{
+        margin: 0 2%;
+        background: #00000000;
+        padding-bottom: 5% ;
+        padding-top: 3%;
+        margin-bottom: 10%;
+        margin-top: 3%;
+    }  
+
+    .comprar{
+        height: 20%;
+        font-size: 70%;
+    }
+    
+    .link1 {
+        text-decoration: none;
+        color: #000000;
+        font-size: 80%;
+    }
+    
+    .parrafo {
+        margin-top: 5% ;
+        line-height: .9;
+    }
+           
+    .encuentra{
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 550px) {
+    .slide-text{
+        background-color: #bebebe11; 
+        top: 50%;
+        padding: 1%;
+        margin-left: auto;
+        text-align: center;
+        width:70%;
+        border-radius: 10px;
+        font-size: 13pt;
+        font-weight: 700;
+    }
+    .subtitulosC{
+        font-size: 10pt !important;
+        margin: 0 0;
+        padding: 0 0;
+        text-align: end;
+    }
+    .parrafoS{
+        width: 100% !important;
+        margin: 0 0;
+        padding: 0 0;
+    }
+    .cantidad{
+        text-align: end;
+    }
+    .soles{
+        font-size: 9pt !important;
+        margin: 5px 1px;
+    }
+    .solesCantidad{
+        font-size: 9pt;
+        margin-top: 0;
+        padding-top: 0;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
